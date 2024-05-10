@@ -1,0 +1,13 @@
+name: docproc_env
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - jupyter
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - category-encoders
+  - pip:
+      - missingno

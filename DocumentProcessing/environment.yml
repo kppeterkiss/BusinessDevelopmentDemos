@@ -1,0 +1,13 @@
+name: docproc_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - pdftotex
+  - tabula-py
+  - tabulate
+  - pytesseract
+  - pdf2image
+  - matplotlib
+  - spacy
